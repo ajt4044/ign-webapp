@@ -1,0 +1,14 @@
+@import "global/variables.module.scss";
+@import "global/mixins.scss";
+
+.videoListCont {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .topicItem {
+        padding: 15px;
+        background-color: $grey;
+        border-radius: $border-radius-default;
+    }
+}

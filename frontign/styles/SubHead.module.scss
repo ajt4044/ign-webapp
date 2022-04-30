@@ -1,0 +1,17 @@
+@import "global/variables.module.scss";
+@import "global/mixins.scss";
+
+.subHeadContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: $grey;
+
+    .topicItem {
+        cursor: pointer;
+        &:hover {
+            color: $ign-red;
+            text-decoration-line: underline;
+        }
+    }
+}

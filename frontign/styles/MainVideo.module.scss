@@ -1,0 +1,9 @@
+@import "global/variables.module.scss";
+@import "global/mixins.scss";
+
+.videoCont {
+    height: 100%;
+    background-color: $grey;
+    border-radius: $border-radius-default;
+    padding: 25px;
+}
